@@ -13,10 +13,10 @@ export default function Index() {
       <section className="min-h-screen flex flex-col">
         <div className="w-full py-5 px-4 lg:px-10 flex-grow">
         <div className="py-12 md:py-20 text-center">
-            <a className="logo w-16 h-16 block mx-auto mb-10" href="/" title="UltraQuill">
+            <a className="logo w-20 h-20 block mx-auto mb-4 p-4 bg-white rounded-full" href="/" title="UltraQuill">
               <img src="/quill.svg" alt="UltraQuill" width={64} />
             </a>
-            <h1 className="text-3xl md:text-5xl text-yellow-300 bg-black font-bold rounded-xl px-5 py-3 inline-block mb-6">
+            <h1 className="text-3xl md:text-5xl text-yellow-300 bg-black dark:bg-yellow-300 dark:text-black font-bold rounded-xl px-5 py-3 inline-block mb-6">
                 We&apos;re Coming Soon!
             </h1>
             <h2 className="text-xl md:text-3xl font-semibold mb-4">
@@ -35,7 +35,7 @@ export default function Index() {
                   type="text"
                   id="fields[first_name]"
                   name="first_name"
-                  className="flex-grow border-2 border-black rounded-xl shadow-[4px_4px_0_#000] px-8 py-5 text-xl"
+                  className="flex-grow bg-[#FFFFFF33] border-2 border-black rounded-xl shadow-[4px_4px_0_#000] dark:shadow-[4px_4px_0_#444] px-8 py-5 text-xl"
                   required
                   placeholder="First Name"
                 />
@@ -44,7 +44,7 @@ export default function Index() {
                   type="email"
                   id="email_address"
                   name="email_address"
-                  className="flex-grow border-2 border-black rounded-xl shadow-[4px_4px_0_#000] px-8 py-5 text-xl"
+                  className="flex-grow bg-[#FFFFFF33] border-2 border-black rounded-xl shadow-[4px_4px_0_#000] dark:shadow-[4px_4px_0_#444] px-8 py-5 text-xl"
                   required
                   placeholder="Enter Your Email Here.."
                 />
@@ -65,7 +65,7 @@ export default function Index() {
         </div>
 
         <footer className="w-full text-center py-4">
-          <p className="text-sm text-gray-500">
+          <p className="text-sm text-gray-400">
             Copyright © 2024{" "}
             <a href="/" className="font-bold text-yellow-600">
               UltraQuill
