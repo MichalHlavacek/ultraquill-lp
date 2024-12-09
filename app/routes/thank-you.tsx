@@ -1,4 +1,4 @@
-import type { MetaFunction } from "@remix-run/node";
+import type { LinksFunction, MetaFunction } from "@remix-run/node";
 
 export const meta: MetaFunction = () => {
   return [
@@ -6,6 +6,12 @@ export const meta: MetaFunction = () => {
     { rel: "icon", href: "/favicon.png" }
   ];
 };
+
+export const links: LinksFunction = () => {
+    return [
+      {rel: 'canonical', href: 'https://ultraquill.com/thank-you'}
+    ]
+  }
 
 export default function Index() {
   return (
