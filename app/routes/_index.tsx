@@ -2,7 +2,7 @@ import type { MetaFunction } from "@remix-run/node";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Thank you! | UltraQuill" },
+    { title: "Get SEO Articles That Actually Rank | UltraQuill" },
     { rel: "icon", href: "/favicon.png" }
   ];
 };
